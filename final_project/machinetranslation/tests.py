@@ -26,4 +26,4 @@ class TestFrenchToEnglish(unittest.TestCase):
         self.assertEqual(french_to_english(None), 'Invalid Argument')
 
 
-unittest.main()
+unittest.main(argv=[''], verbosity=2, exit=False)
